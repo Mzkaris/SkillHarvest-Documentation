@@ -38,7 +38,7 @@ D. How to develop a Github project readme file.
 #### 3.0 POWER QUERY
 Here, we used **SkillHarvest_Stationary_Supplies.CSV** to demostrate the use cases of some power query functions. Below is an excerpt from the dataset.
 
-### <p align="center"/> Excerpt From The Datasheet </p>
+#### <p align="center"/> Excerpt From The Datasheet </p>
 #### 3.1 POWER QUERY EXERCISE
 
    1. Show sales rep whose items are Ppen set and binders.
@@ -48,12 +48,31 @@ Here, we used **SkillHarvest_Stationary_Supplies.CSV** to demostrate the use cas
    5. Show sales of items that start with Pen, include their region, sales rep and year.
    6. Show sales of items that end with 'SK', include their region, sales rep and year.      
  
-### <p align="center"/> TASK ONE SOLUTION </P>
+#### <p align="center"/> TASK ONE SOLUTION </P>
 PowerQuery
-=QUERY (A1:H44, "SELECT B, C WHERE C= 'Pen Set' OR C='Binder'", 1)
+=QUERY(A1:H44, "SELECT B, C WHERE C= 'Pen Set' OR C='Binder'", 1)
 
 
-### <p align="center"/> TASK TWO SOLUTION </P>
+#### <p align="center"/> TASK TWO SOLUTION </P>
 PowerQuery
-=QUERY (A1:H44, SELECT C, H WHERE (C='Binder' OR C='Pencil') AND F='2015'",1)
+=QUERY(A1:H44, SELECT C, H WHERE (C='Binder' OR C='Pencil') AND F='2015'",1)
 
+
+#### <P align="center"/> TASK THREE SOLUTION </P>
+PowerQuery
+=QUERY(A1:H44, "SELECT A, H WHERE (A='Central' OR A='EAST') AND F='2014'",1)
+
+#### <P align="center"/> TASK FOUR SOLUTION </P>
+PowerQuery
+=QUERY(A1:H44, "SELECT E, H WHERE (E='Aug' OR E='Sep') AND F='2014'",1)
+
+#### <P align="center"/> TASK FIVE SOLUTUON </P>
+PowerQuery
+=QUERY(A1:H44, "SELECT C,A,B,F,H WHERE C LIKE 'Pen%'",1)
+
+#### <p align="center"/> TASK SIX SOLUTION </P>
+PowerQuery
+=QUERY(A1:H44, "SELECT C,A,B,F,H WHERE C LIKE '%sk'", 1)
+
+
+#### 4.0 INTRODUCTION TO POWERBI
