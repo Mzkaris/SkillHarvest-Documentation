@@ -38,5 +38,22 @@ D. How to develop a Github project readme file.
 #### 3.0 POWER QUERY
 Here, we used **SkillHarvest_Stationary_Supplies.CSV** to demostrate the use cases of some power query functions. Below is an excerpt from the dataset.
 
+### <p align="center"/> Excerpt From The Datasheet </p>
+#### 3.1 POWER QUERY EXERCISE
 
+   1. Show sales rep whose items are Ppen set and binders.
+   2. Show sales of binder items and pencil in 2015.
+   3. Show sales in Central and East region in 2014.
+   4. Show sales in August and September 2014.
+   5. Show sales of items that start with Pen, include their region, sales rep and year.
+   6. Show sales of items that end with 'SK', include their region, sales rep and year.      
  
+### <p align="center"/> TASK ONE SOLUTION </P>
+PowerQuery
+=QUERY (A1:H44, "SELECT B, C WHERE C= 'Pen Set' OR C='Binder'", 1)
+
+
+### <p align="center"/> TASK TWO SOLUTION </P>
+PowerQuery
+=QUERY (A1:H44, SELECT C, H WHERE (C='Binder' OR C='Pencil') AND F='2015'",1)
+
