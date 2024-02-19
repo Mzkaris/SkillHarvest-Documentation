@@ -50,7 +50,7 @@ PowerQuery
 ```
 =QUERY(A1:H44, "SELECT B, C WHERE C= 'Pen Set' OR C='Binder'", 1)
 ```
-
+# <div align="center"> <img src="T1.png"> </div>
 
 #### <p align="center"/> TASK TWO SOLUTION </P>
 PowerQuery
