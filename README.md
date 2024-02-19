@@ -1,11 +1,10 @@
 ### <p align="center"/> SKILL-HARVEST DATA ANALYSIS BOOTCAMP </p>
 ##### INTRODUCTION
 This respository is an archive that contains the learning journals I kept while attending SkillHarvest Academy's data analysis training boot camp. Below are a curated list of the bootcamp contenets:
-   
-    1. Spreadsheets Fundamentals (Microsoft Excel & Google Sheets) -
-    2. GitHub Fundamentals -
-    3. PowerQuery - 
-    4. Introduction to PowerBi - 
+1. Spreadsheets Fundamentals (Microsoft Excel & Google Sheets) - 
+2. GitHub Fundamentals -
+3. PowerQuery -
+4. Introduction to PowerBi - 
 #### 1.0 SPREADSHEETS FUNDAMENTALS
 Spreadsheets are powerful tools used for organizing, analyzing, and presenting data in a structured format. They consist of rows and colums, formimg a grid where data can be entered, manipulated, and calculated.
 
@@ -17,12 +16,12 @@ They play a crucial role in various aspects of business, education and personal 
  - **Differences:**
 
 
-           |Feature        |Microsoft Excel                 |Google sheets     |
-           |---------------| ------------| ---------| 
-           |Ownership      |Requires installation & licenses|Cloud-based accessible online   |
-           |Cost|Paid software, licenses required    | Free basic features, paid options  |
-           |Functionalities|Advanced data analysis tools |Basic to intermediate capabilities  |
-           |Collaboration  |Limited collaboration features|Robust real-time collaboration capabilities|
+|Feature        |Microsoft Excel  |Google sheets     |
+|---------------| ------------| ---------| 
+|Ownership      |Requires installation & licenses|Cloud-based accessible online|
+|Cost |Paid software, licenses required | Free basic features, paid options|
+|Functionalities|Advanced data analysis tools |Basic to intermediate capabilities |
+|Collaboration  |Limited collaboration features|Robust real-time collaboration capabilities|
 
 
 
