@@ -23,8 +23,6 @@ They play a crucial role in various aspects of business, education and personal 
 |Functionalities|Advanced data analysis tools |Basic to intermediate capabilities |
 |Collaboration  |Limited collaboration features|Robust real-time collaboration capabilities|
 
-
-
 #### 2.0 GITHUB FUNDAMENTALS
 A. Here, we were introduced to Github as a/an:
   - Version control & Collaboration Tool
@@ -49,29 +47,38 @@ Here, we used **SkillHarvest_Stationary_Supplies.CSV** to demostrate the use cas
  
 #### <p align="center"/> TASK ONE SOLUTION </P>
 PowerQuery
+```
 =QUERY(A1:H44, "SELECT B, C WHERE C= 'Pen Set' OR C='Binder'", 1)
+```
 
 
 #### <p align="center"/> TASK TWO SOLUTION </P>
 PowerQuery
+```
 =QUERY(A1:H44, SELECT C, H WHERE (C='Binder' OR C='Pencil') AND F='2015'",1)
-
+```
 
 #### <P align="center"/> TASK THREE SOLUTION </P>
 PowerQuery
+```
 =QUERY(A1:H44, "SELECT A, H WHERE (A='Central' OR A='EAST') AND F='2014'",1)
+```
 
 #### <P align="center"/> TASK FOUR SOLUTION </P>
 PowerQuery
+```
 =QUERY(A1:H44, "SELECT E, H WHERE (E='Aug' OR E='Sep') AND F='2014'",1)
+```
 
 #### <P align="center"/> TASK FIVE SOLUTUON </P>
 PowerQuery
+```
 =QUERY(A1:H44, "SELECT C,A,B,F,H WHERE C LIKE 'Pen%'",1)
-
+```
 #### <p align="center"/> TASK SIX SOLUTION </P>
 PowerQuery
+```
 =QUERY(A1:H44, "SELECT C,A,B,F,H WHERE C LIKE '%sk'", 1)
-
+```
 
 #### 4.0 INTRODUCTION TO POWERBI
