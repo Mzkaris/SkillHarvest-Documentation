@@ -59,24 +59,29 @@ PowerQuery
 ```
 =QUERY(A1:H44, SELECT C, H WHERE (C='Binder' OR C='Pencil') AND F='2015'",1)
 ```
+# <div align="center"> <img src="T2.png"> </div>
 
 #### <P align="center"/> TASK THREE SOLUTION </P>
 PowerQuery
 ```
 =QUERY(A1:H44, "SELECT A, H WHERE (A='Central' OR A='EAST') AND F='2014'",1)
 ```
+# <div align="center"> <img src="T3.png"> </div>
 
 #### <P align="center"/> TASK FOUR SOLUTION </P>
 PowerQuery
 ```
 =QUERY(A1:H44, "SELECT E, H WHERE (E='Aug' OR E='Sep') AND F='2014'",1)
 ```
+# <div align="center"> <img src="T4.png"> </div>
 
 #### <P align="center"/> TASK FIVE SOLUTUON </P>
 PowerQuery
 ```
 =QUERY(A1:H44, "SELECT C,A,B,F,H WHERE C LIKE 'Pen%'",1)
 ```
+# <div align="center"> <img src="T5.png"> </div>
+
 #### <p align="center"/> TASK SIX SOLUTION </P>
 PowerQuery
 ```
