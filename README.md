@@ -36,6 +36,8 @@ D. How to develop a Github project readme file.
 Here, we used **SkillHarvest_Stationary_Supplies.CSV** to demostrate the use cases of some power query functions. Below is an excerpt from the dataset.
 
 #### <p align="center"/> Excerpt From The Datasheet </p>
+# <div align="center"> <img src="BB.png"> </div>
+
 #### 3.1 POWER QUERY EXERCISE
 
    1. Show sales rep whose items are Ppen set and binders.
