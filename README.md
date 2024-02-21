@@ -1,11 +1,11 @@
 ### <p align="center"/> SKILL-HARVEST DATA ANALYSIS BOOTCAMP </p>
-##### INTRODUCTION
+## INTRODUCTION
 This respository is an archive that contains the learning journals I kept while attending SkillHarvest Academy's data analysis training boot camp. Below are a curated list of the bootcamp contenets:
 1. Spreadsheets Fundamentals (Microsoft Excel & Google Sheets) - [Download Here](https://docs.google.com/spreadsheets)
-2. GitHub Fundamentals - https://github.com/Mzkaris/SkillHarvest-Project
-3. PowerQuery - https://powerquery.microsoft.com/en-us/
+2. GitHub Fundamentals - [Create your account](https://github.com/Mzkaris/SkillHarvest-Project)
+3. PowerQuery - [Download Here](https://powerquery.microsoft.com/en-us/)
 4. Introduction to PowerBi - https://powerbi.microsoft.com/en-us/downloads/
-#### 1.0 SPREADSHEETS FUNDAMENTALS
+## 1.0 SPREADSHEETS FUNDAMENTALS
 Spreadsheets are powerful tools used for organizing, analyzing, and presenting data in a structured format. They consist of rows and colums, formimg a grid where data can be entered, manipulated, and calculated.
 
 They play a crucial role in various aspects of business, education and personal organization. Hence, understanding their features and capabilities can significantly enhance productivity and decison-making processes.
@@ -23,7 +23,7 @@ They play a crucial role in various aspects of business, education and personal 
 |Functionalities|Advanced data analysis tools |Basic to intermediate capabilities |
 |Collaboration  |Limited collaboration features|Robust real-time collaboration capabilities|
 
-#### 2.0 GITHUB FUNDAMENTALS
+## 2.0 GITHUB FUNDAMENTALS
 A. Here, we were introduced to Github as a/an:
   - Version control & Collaboration Tool
   - Open Source
@@ -32,13 +32,13 @@ B. How to create a Github account.
 C. How to create a repository.
 D. How to develop a Github project readme file.
 
-#### 3.0 POWER QUERY
+## 3.0 POWER QUERY
 Here, we used **SkillHarvest_Stationary_Supplies.CSV** to demostrate the use cases of some power query functions. Below is an excerpt from the dataset.
 
 #### <p align="center"/> Excerpt From The Datasheet </p>
 # <div align="center"> <img src="BB.png"> </div>
 
-#### 3.1 POWER QUERY EXERCISE
+## 3.1 POWER QUERY EXERCISE
 
    1. Show sales rep whose items are Ppen set and binders.
    2. Show sales of binder items and pencil in 2015.
@@ -88,4 +88,4 @@ PowerQuery
 =QUERY(A1:H44, "SELECT C,A,B,F,H WHERE C LIKE '%sk'", 1)
 ```
 
-#### 4.0 INTRODUCTION TO POWERBI
+## 4.0 INTRODUCTION TO POWERBI
