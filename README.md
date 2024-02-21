@@ -1,7 +1,7 @@
 ### <p align="center"/> SKILL-HARVEST DATA ANALYSIS BOOTCAMP </p>
 ##### INTRODUCTION
 This respository is an archive that contains the learning journals I kept while attending SkillHarvest Academy's data analysis training boot camp. Below are a curated list of the bootcamp contenets:
-1. Spreadsheets Fundamentals (Microsoft Excel & Google Sheets) - https://docs.google.com/spreadsheets
+1. Spreadsheets Fundamentals (Microsoft Excel & Google Sheets) - [Download Here](https://docs.google.com/spreadsheets)
 2. GitHub Fundamentals - https://github.com/Mzkaris/SkillHarvest-Project
 3. PowerQuery - https://powerquery.microsoft.com/en-us/
 4. Introduction to PowerBi - https://powerbi.microsoft.com/en-us/downloads/
